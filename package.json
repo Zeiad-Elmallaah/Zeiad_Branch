@@ -1,0 +1,30 @@
+{
+  "name": "gamer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "emulate": "vue-cli-service build && firebase emulators:start",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-deploy": "vue-cli-service build && firebase deploy"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "firebase": "^9.6.9",
+    "vue": "^3.0.0",
+    "vue-loading-overlay": "^5.0.3",
+    "vue-router": "^4.0.12",
+    "vue-waypoint": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
